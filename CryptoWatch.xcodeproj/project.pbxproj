@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5FB35E9B82B30C4420CC5D /* Pods_CryptoWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94A19288A1032722802A936 /* Pods_CryptoWatch.framework */; };
 		DE3ADA692854ADF3009357FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA682854ADF3009357FC /* AppDelegate.swift */; };
 		DE3ADA6B2854ADF3009357FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA6A2854ADF3009357FC /* SceneDelegate.swift */; };
-		DE3ADA6D2854ADF3009357FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA6C2854ADF3009357FC /* ViewController.swift */; };
+		DE3ADA6D2854ADF3009357FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA6C2854ADF3009357FC /* HomeViewController.swift */; };
 		DE3ADA702854ADF3009357FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3ADA6E2854ADF3009357FC /* Main.storyboard */; };
 		DE3ADA722854ADF6009357FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3ADA712854ADF6009357FC /* Assets.xcassets */; };
 		DE3ADA752854ADF6009357FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3ADA732854ADF6009357FC /* LaunchScreen.storyboard */; };
 		DE3ADA7D2854B335009357FC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA7C2854B335009357FC /* APICaller.swift */; };
 		DE3ADA7F2854B570009357FC /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA7E2854B570009357FC /* CryptoTableViewCell.swift */; };
 		DE3ADA812854B716009357FC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADA802854B716009357FC /* Models.swift */; };
+		DE3ADA8B2855F399009357FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE3ADA8A2855F399009357FC /* GoogleService-Info.plist */; };
+		DE637A8E2855F73400812A5D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637A8D2855F73400812A5D /* StartViewController.swift */; };
+		DE637A902855F73D00812A5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637A8F2855F73D00812A5D /* LoginViewController.swift */; };
+		DE637A922855F74600812A5D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637A912855F74600812A5D /* SignUpViewController.swift */; };
+		DE637A952855FB5F00812A5D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637A942855FB5F00812A5D /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09D3CB2242DA444C9DFDF422 /* Pods-CryptoWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoWatch.debug.xcconfig"; path = "Target Support Files/Pods-CryptoWatch/Pods-CryptoWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		A654053B6D8BD99D3F48BC7F /* Pods-CryptoWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoWatch.release.xcconfig"; path = "Target Support Files/Pods-CryptoWatch/Pods-CryptoWatch.release.xcconfig"; sourceTree = "<group>"; };
+		A94A19288A1032722802A936 /* Pods_CryptoWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3ADA652854ADF3009357FC /* CryptoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3ADA682854ADF3009357FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE3ADA6A2854ADF3009357FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE3ADA6C2854ADF3009357FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE3ADA6C2854ADF3009357FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DE3ADA6F2854ADF3009357FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE3ADA712854ADF6009357FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3ADA742854ADF6009357FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +39,11 @@
 		DE3ADA7C2854B335009357FC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		DE3ADA7E2854B570009357FC /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		DE3ADA802854B716009357FC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DE3ADA8A2855F399009357FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE637A8D2855F73400812A5D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DE637A8F2855F73D00812A5D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DE637A912855F74600812A5D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DE637A942855FB5F00812A5D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5FB35E9B82B30C4420CC5D /* Pods_CryptoWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81B4FD0621713AE4A1C0357D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D3CB2242DA444C9DFDF422 /* Pods-CryptoWatch.debug.xcconfig */,
+				A654053B6D8BD99D3F48BC7F /* Pods-CryptoWatch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A48372FC5FE110F6897EC505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94A19288A1032722802A936 /* Pods_CryptoWatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE3ADA5C2854ADF3009357FC = {
 			isa = PBXGroup;
 			children = (
 				DE3ADA672854ADF3009357FC /* CryptoWatch */,
 				DE3ADA662854ADF3009357FC /* Products */,
+				81B4FD0621713AE4A1C0357D /* Pods */,
+				A48372FC5FE110F6897EC505 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,18 +96,64 @@
 		DE3ADA672854ADF3009357FC /* CryptoWatch */ = {
 			isa = PBXGroup;
 			children = (
-				DE3ADA682854ADF3009357FC /* AppDelegate.swift */,
-				DE3ADA6A2854ADF3009357FC /* SceneDelegate.swift */,
-				DE3ADA6C2854ADF3009357FC /* ViewController.swift */,
-				DE3ADA6E2854ADF3009357FC /* Main.storyboard */,
-				DE3ADA712854ADF6009357FC /* Assets.xcassets */,
-				DE3ADA732854ADF6009357FC /* LaunchScreen.storyboard */,
+				DE637A932855FB5500812A5D /* Helpers */,
+				DE3ADA822855EE6C009357FC /* Controllers */,
+				DE3ADA832855EE7E009357FC /* Model */,
+				DE3ADA862855EE9E009357FC /* View */,
 				DE3ADA762854ADF6009357FC /* Info.plist */,
-				DE3ADA7C2854B335009357FC /* APICaller.swift */,
-				DE3ADA7E2854B570009357FC /* CryptoTableViewCell.swift */,
-				DE3ADA802854B716009357FC /* Models.swift */,
+				DE3ADA8A2855F399009357FC /* GoogleService-Info.plist */,
+				DE3ADA872855EEC2009357FC /* Resources */,
 			);
 			path = CryptoWatch;
+			sourceTree = "<group>";
+		};
+		DE3ADA822855EE6C009357FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE3ADA7E2854B570009357FC /* CryptoTableViewCell.swift */,
+				DE3ADA6C2854ADF3009357FC /* HomeViewController.swift */,
+				DE637A8D2855F73400812A5D /* StartViewController.swift */,
+				DE637A8F2855F73D00812A5D /* LoginViewController.swift */,
+				DE637A912855F74600812A5D /* SignUpViewController.swift */,
+			);
+			name = Controllers;
+			path = Model/Controllers;
+			sourceTree = "<group>";
+		};
+		DE3ADA832855EE7E009357FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE3ADA802854B716009357FC /* Models.swift */,
+				DE3ADA7C2854B335009357FC /* APICaller.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE3ADA862855EE9E009357FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE3ADA6E2854ADF3009357FC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE3ADA872855EEC2009357FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE3ADA682854ADF3009357FC /* AppDelegate.swift */,
+				DE3ADA6A2854ADF3009357FC /* SceneDelegate.swift */,
+				DE3ADA712854ADF6009357FC /* Assets.xcassets */,
+				DE3ADA732854ADF6009357FC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE637A932855FB5500812A5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE637A942855FB5F00812A5D /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE3ADA792854ADF6009357FC /* Build configuration list for PBXNativeTarget "CryptoWatch" */;
 			buildPhases = (
+				1A9FBF7293ED357728FB62F3 /* [CP] Check Pods Manifest.lock */,
 				DE3ADA612854ADF3009357FC /* Sources */,
 				DE3ADA622854ADF3009357FC /* Frameworks */,
 				DE3ADA632854ADF3009357FC /* Resources */,
+				94AF4317A1D633EFE1EBB467 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,21 +219,68 @@
 				DE3ADA752854ADF6009357FC /* LaunchScreen.storyboard in Resources */,
 				DE3ADA722854ADF6009357FC /* Assets.xcassets in Resources */,
 				DE3ADA702854ADF3009357FC /* Main.storyboard in Resources */,
+				DE3ADA8B2855F399009357FC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A9FBF7293ED357728FB62F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AF4317A1D633EFE1EBB467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoWatch/Pods-CryptoWatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoWatch/Pods-CryptoWatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoWatch/Pods-CryptoWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE3ADA612854ADF3009357FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3ADA6D2854ADF3009357FC /* ViewController.swift in Sources */,
+				DE3ADA6D2854ADF3009357FC /* HomeViewController.swift in Sources */,
+				DE637A8E2855F73400812A5D /* StartViewController.swift in Sources */,
 				DE3ADA692854ADF3009357FC /* AppDelegate.swift in Sources */,
 				DE3ADA6B2854ADF3009357FC /* SceneDelegate.swift in Sources */,
+				DE637A902855F73D00812A5D /* LoginViewController.swift in Sources */,
 				DE3ADA812854B716009357FC /* Models.swift in Sources */,
+				DE637A922855F74600812A5D /* SignUpViewController.swift in Sources */,
 				DE3ADA7F2854B570009357FC /* CryptoTableViewCell.swift in Sources */,
+				DE637A952855FB5F00812A5D /* Utilities.swift in Sources */,
 				DE3ADA7D2854B335009357FC /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +425,7 @@
 		};
 		DE3ADA7A2854ADF6009357FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D3CB2242DA444C9DFDF422 /* Pods-CryptoWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +454,7 @@
 		};
 		DE3ADA7B2854ADF6009357FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A654053B6D8BD99D3F48BC7F /* Pods-CryptoWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

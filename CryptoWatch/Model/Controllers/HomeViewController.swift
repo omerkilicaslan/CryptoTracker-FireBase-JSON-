@@ -11,7 +11,7 @@ import UIKit
 // UI To Show Different Crypto Prices
 // MVVM Design Pattern
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     private let tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         view.addSubview(tableView)
         tableView.dataSource = self
         tableView.delegate = self
+        self.navigationItem.setHidesBackButton(true, animated: true)
         
         APICaller.shared.getAllCryptoData { [weak self] result in
             
@@ -47,7 +48,7 @@ class ViewController: UIViewController {
                 self?.viewModels = models.compactMap({ model in
                     //Number Formatter
                     let price = model.price_usd ?? 0
-                    let formatter = ViewController.numberFormatter
+                    let formatter = HomeViewController.numberFormatter
                     let priceString = formatter.string(from: NSNumber(value: price))
                     
                     let iconUrl = URL(string: APICaller.shared.icons.filter( { icon in
@@ -86,7 +87,7 @@ class ViewController: UIViewController {
 
 
 //Mark- TableView Funcs
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
