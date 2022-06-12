@@ -96,8 +96,8 @@
 		DE3ADA672854ADF3009357FC /* CryptoWatch */ = {
 			isa = PBXGroup;
 			children = (
-				DE637A932855FB5500812A5D /* Helpers */,
 				DE3ADA822855EE6C009357FC /* Controllers */,
+				DE637A932855FB5500812A5D /* Helpers */,
 				DE3ADA832855EE7E009357FC /* Model */,
 				DE3ADA862855EE9E009357FC /* View */,
 				DE3ADA762854ADF6009357FC /* Info.plist */,
@@ -116,8 +116,7 @@
 				DE637A8F2855F73D00812A5D /* LoginViewController.swift */,
 				DE637A912855F74600812A5D /* SignUpViewController.swift */,
 			);
-			name = Controllers;
-			path = Model/Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		DE3ADA832855EE7E009357FC /* Model */ = {
